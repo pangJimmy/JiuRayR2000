@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <CheckBox
+            android:id="@+id/checkBox_select_serialport_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/select_tag" />
+
+        <Button
+            android:id="@+id/button_read_tag_serialport_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/tag" />
+
+        <EditText
+            android:id="@+id/editText_tag_serialport_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+        </EditText>
+
+    </LinearLayout>    
+    <LinearLayout     
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="访问密码："/>
+        <EditText 
+            android:id="@+id/editText_uhf_more_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000000"
+            android:ems="10"/>
+        
+    </LinearLayout>
+     <LinearLayout     
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="数据区："/>
+        <Spinner 
+            android:id="@+id/Spinner_uhf_more_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+    </LinearLayout>   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/FontStyle"
+            android:text="@string/addr" />
+
+        <EditText
+            android:id="@+id/editText_uhf_more_option_read_addr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="0"
+            android:ems="4" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/FontStyle"
+            android:text="@string/len" />
+
+        <EditText
+            android:id="@+id/editText_more_option_read_len"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:ems="10" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/read_data" />
+
+        <EditText
+            android:id="@+id/editText_more_option_read_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/write_data" />
+
+        <EditText
+            android:id="@+id/editText_more_option_write_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_more_option_read_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/FontStyle"
+            android:text="@string/read_data" />
+
+        <Button
+            android:id="@+id/button_more_option_write_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/FontStyle"
+            android:text="@string/write_data"
+             />
+
+    </LinearLayout>
+</LinearLayout>

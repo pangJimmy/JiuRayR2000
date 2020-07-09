@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <CheckBox
+            android:id="@+id/checkBox_lock_kill_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/select_tag" />
+
+        <Button
+            android:id="@+id/button_lock_kill_read_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/tag" />
+
+        <EditText
+            android:id="@+id/editText_lock_kill_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+        </EditText>
+
+    </LinearLayout>    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/access_password" />
+
+        <EditText
+            android:id="@+id/editText_lock_kill_access_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="00000000"
+            android:ems="10" >
+
+        </EditText>
+
+    </LinearLayout>   
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/kill_password" />
+
+        <EditText
+            android:id="@+id/editText_kil_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="00000000"
+            android:ems="10" >
+
+        </EditText>
+
+    </LinearLayout>    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/lock_membank" />
+
+        <Spinner
+            android:id="@+id/spinner_lock_kill_membank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+        </Spinner>
+
+    </LinearLayout>  
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:text="@string/lock_type" />
+
+        <Spinner
+            android:id="@+id/spinner_lock_kill_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+        </Spinner>
+
+    </LinearLayout>    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+	<Button 
+	    android:id="@+id/button_lock_kill_lock"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    style="@style/FontStyle"
+	    android:text="@string/lock"/>
+		<Button 
+	    android:id="@+id/button_lock_kill_kill"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    style="@style/FontStyle"
+	    android:text="@string/kill"/>
+
+    </LinearLayout>            
+
+</LinearLayout>

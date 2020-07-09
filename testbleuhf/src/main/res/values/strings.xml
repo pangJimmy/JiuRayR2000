@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">JiuRay_BLE_UHF</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">连接</string>
+    <string name="disconnected">断开</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="others">其他操作</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="connected_success">连接成功</string>
+    <string name="connected_fail">连接成功</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">连接</string>
+    <string name="menu_disconnect">断开</string>
+    <string name="menu_scan">搜索</string>
+    <string name="menu_stop">停止</string>
+
+
+
+    <string name="tag_count">标签个数：</string>
+    <string name="clear_data">清空数据</string>
+    <string name="rbInventorySingle">单标签</string>
+    <string name="rbInventoryLoop">循环读标签</string>
+    <string name="inventory">读标签</string>
+    <string name="stop_read">停止读标签</string>
+    <string name="epc">EPC</string>
+    <string name="len">长度</string>
+    <string name="count">次数</string>
+    <string name="inventory_tag">识别标签</string>
+    <string name="select_tag">指定标签</string>
+    <string name="tag">标签号</string>
+    <string name="menbank">存储区</string>
+    <string name="access_password">访问密码：</string>
+    <string name="addr">地址</string>
+    <string name="read_data">读数据</string>
+    <string name="readData">读取数据</string>
+    <string name="write_data">写数据</string>
+
+    <string name="serialport_setting">串口设置</string>
+    <string name="com_id">COM口：</string>
+    <string name="baudrate">波特率：</string>
+    <string name="connected_flag">通信状态：</string>
+    <string name="output_power">输出功率：</string>
+    <string name="work_freq">工作频率：</string>
+    <string name="connect_device">连接设备</string>
+    <string name="disconnect">未连接</string>
+    <string name="into_reader">进入读写器操作</string>
+    <string name="work_area">工作区域</string>
+    <string name="exit">退出</string>
+    <string name="lock_membank">锁定区域：</string>
+    <string name="lock_type">锁定类型：</string>
+    <string name="kill_password">销毁密码：</string>
+    <string name="kill">销毁</string>
+    <string name="lock">锁定</string>
+    <string name="wifi_option">WIFI操作</string>
+    <string name="ust_option">USB操作</string>
+    <string name="audio_option">音频接口操作</string>
+    <string name="lock_kill">锁定/销毁</string>
+    <string name="para_setting">参数设置</string>
+    <string name="read_write">读/写操作</string>
+    <string name="data_bit">数据位：</string>
+    <string name="stop_bit">停止位：</string>
+    <string name="parity">奇偶校验：</string>
+    <string name="setting">设置</string>
+    <string name="to_uhf">进入UHF操作</string>
+</resources>
