@@ -27,7 +27,7 @@ public class EPC {
 		return len;
 	}
 	/**
-	 * @param id the id to set
+	 * @param len the id to set
 	 */
 	public void setLen(int len) {
 		this.len = len;
